@@ -1,9 +1,9 @@
 <?php
 $number = 12;
 $factorial = 1;
-for ($n=$number; $n>=1; $n--)
+for ($counter=$number; $counter>1; $counter--)
 {
-  $factorial = $factorial * $n;
+  $factorial *= $counter;
 }
 echo "$number ! = $factorial<br><br><br><br><br><br>";
 
